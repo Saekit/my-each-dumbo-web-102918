@@ -6,5 +6,6 @@ def my_each(array)
     newArray << array[count]
     count += 1 
   end
+  newArray
 end
 
