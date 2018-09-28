@@ -3,7 +3,6 @@ def my_each(array)
   while count < array.length 
     count += 1 
     yield array.collect {|i| i}
-    array
   end
 end
 
